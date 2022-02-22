@@ -1,0 +1,35 @@
+
+@import '../../styles/colors.sass';
+
+.listItems {
+  background-color: $gray-light;
+
+  .breadcrumbs {
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px 0px;
+    ol {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      font-size: 14px;
+
+      li {
+        display: flex;
+        align-items: center;
+      }
+      li:last-of-type span{
+        display: none;
+      }
+    }
+  }
+
+  .products {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0px;
+  }
+}
